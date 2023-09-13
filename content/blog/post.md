@@ -1,6 +1,7 @@
 ---
 title: Post
 description: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+visibleInCMS: true
 ---
 Donec sed sapien eu purus ultrices sodales. Sed ut tellus ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;
 

@@ -10,12 +10,15 @@ public_folder: /media
 collections:
   - name: blog
     label: Blog
+    label_singular: post
     folder: content/blog
     create: true
+    filter: {field: visibleInCMS, value: true}
     fields: [
       {name: title, widget: string},
       {name: description, widget: text},
       {name: body, widget: markdown},
+      {name: visibleInCMS, widget: hidden, default: true}
     ]
 
   - name: pages

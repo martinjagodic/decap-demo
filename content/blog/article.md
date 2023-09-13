@@ -1,6 +1,7 @@
 ---
 title: Article
 description: Cras quis lorem vitae mauris interdum efficitur
+visibleInCMS: true
 ---
 Etiam sit amet efficitur orci. Suspendisse potenti. Quisque nec justo eget lacus tempor tristique. Sed ultricies, ex sit amet congue tristique, velit sapien aliquam odio, sed ullamcorper nunc massa sed massa. Sed finibus, elit eu facilisis ultrices, nisl massa condimentum velit, nec condimentum justo arcu vitae mauris.
 
