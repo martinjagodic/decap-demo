@@ -4,8 +4,6 @@ backend:
   name: git-gateway
   branch: main
 
-display_url: http://localhost:1313
-site_url: https://www.maistra.com/
 media_folder: /static/media
 public_folder: /media
 
@@ -16,18 +14,21 @@ collections:
     create: true
     fields: [
       {name: title, widget: string},
+      {name: description, widget: text},
       {name: body, widget: markdown},
     ]
 
   - name: pages
     label: Pages
     files: [
-      {name: index, label: Index, file: content/_index.md, fields: [
+      {name: home, label: Home, file: content/_index.md, fields: [
         {name: title, widget: string},
-      {name: body, widget: markdown},
+        {name: welcome, widget: text},
+        {name: body, widget: markdown},
       ]},
       {name: about, label: About, file: content/about.md, fields: [
         {name: title, widget: string},
+        {name: author, widget: string},
         {name: body, widget: markdown},
       ]},
     ]

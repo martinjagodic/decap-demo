@@ -1,4 +1,5 @@
 ---
-title: Index
+title: Home
+welcome: Welcome to my Shift 2023 example site. 
 ---
 Git-based CMS could be a great idea for your next project. It's powerful and great to work with.

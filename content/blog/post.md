@@ -1,7 +1,8 @@
 ---
 title: Post
+description: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed sapien eu purus ultrices sodales. Sed ut tellus ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;
+Donec sed sapien eu purus ultrices sodales. Sed ut tellus ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;
 
 Vestibulum id nibh luctus, placerat leo vitae, placerat ex. Sed aliquet, arcu eget faucibus tincidunt, velit magna aliquam tortor, sed auctor nisl velit non nunc. In hac habitasse platea dictumst. Sed quis nisl ut justo condimentum aliquam. Maecenas vel libero in massa rhoncus feugiat. In hac habitasse platea dictumst.
 

@@ -2,7 +2,13 @@
 
   <h1>{{ .Title }}</h1>
 
-  <p>{{ .Description }}</p>
+  {{ with .Params.author }}
+    <p>Author: {{ . }}</p>
+  {{ end }}
+
+  {{ with .Description }}
+    <p class="description">{{ . }}</p>
+  {{ end }}
 
   {{ .Content }}
   
