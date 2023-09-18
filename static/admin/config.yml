@@ -35,3 +35,4 @@ collections:
         {name: body, widget: markdown},
       ]},
     ]
+
