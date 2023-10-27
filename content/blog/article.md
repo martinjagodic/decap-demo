@@ -1,5 +1,5 @@
 ---
-title: Article
+title: devfest zg
 description: Cras quis lorem vitae mauris interdum efficitur
 visibleInCMS: true
 ---
