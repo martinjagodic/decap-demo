@@ -6,7 +6,8 @@
   <title>{{ .Title }} | {{ .Site.Title }}</title>
   <link rel="icon" href="/favicon.png" type="image/x-icon">
 
-  {{ $style := resources.Get "/style.scss" | resources.ToCSS }}
+  {{ $scss := resources.Get "style.scss" }}
+  {{ $style := $scss | resources.ExecuteAsTemplate "style-parsed.scss" . | toCSS }}
   <link rel="stylesheet" href="{{ $style.RelPermalink }}">
 </head>
 
