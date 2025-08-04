@@ -1,8 +1,9 @@
 local_backend: true
 
 backend:
-  name: git-gateway
+  name: github
   branch: main
+  repo: martin-jagodic/decap-demo
 
 media_folder: /static/media
 public_folder: /media
