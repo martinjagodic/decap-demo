@@ -6,3 +6,4 @@ To run the demo, clone this repo and run `hugo server` in the root directory. Yo
 
 Decap CMS is installed and configured in the `static/admin` directory. You can access the CMS at `http://localhost:1313/admin/`.
 
+This branch is configured to use the editorial workflow feature of Decap CMS. You can create and edit content, and then submit it for review before publishing.
