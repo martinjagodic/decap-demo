@@ -38,3 +38,21 @@ main {
 .description {
   font-weight: 700;
 }
+
+.button {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  background-color: #ff0080;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+
+  &:hover {
+    background-color: #e60073;
+  }
+}
+
+.post-preview {
+  padding: 1rem;
+}
