@@ -4,3 +4,7 @@ description: Test
 visibleInCMS: true
 ---
 Test
+
+
+
+![](/media/kita.png "TEST")
